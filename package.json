@@ -1,0 +1,20 @@
+{
+	"name": "certificator",
+	"version": "1.0.0",
+	"description": "local-certificator",
+	"packageAgent": "certificator/1.0.0",
+	"main": "/src/server.js",
+	"directories": {
+		"doc": "doc"
+	},
+	"scripts": {
+		"start": "node src/server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"greenlock-express": "^4.0.3",
+		"path": "^0.12.7"
+	}
+}
